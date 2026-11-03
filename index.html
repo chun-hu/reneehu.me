@@ -59,7 +59,7 @@ a:focus-visible, button:focus-visible{outline:2px solid var(--ink); outline-offs
 .corner-bl a:hover{text-decoration:underline}
 .corner-br{grid-column:2; grid-row:3; justify-self:end; align-self:end; font-size:0.9375rem; z-index:2}
 
-.stage{--pw:min(38vw, max(320px, calc((100svh - 300px) * .8))); grid-column:1 / -1; grid-row:2; position:relative; display:flex; justify-content:center; align-items:center; gap:clamp(40px, 5vw, 110px); padding-block:12px}
+.stage{--pw:min(44vw, max(340px, calc((100svh - 130px) * .8))); grid-column:1 / -1; grid-row:1 / -1; position:relative; display:flex; justify-content:center; align-items:center; gap:clamp(40px, 5vw, 110px); padding-block:12px}
 .plate{flex:none; width:var(--pw); aspect-ratio:4 / 5; max-width:100%; background:var(--plate); position:relative; overflow:hidden}
 .plate img{position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center top}
 .crayon{position:absolute; inset:0; width:100%; height:100%; pointer-events:none; overflow:visible}
@@ -78,7 +78,7 @@ a:focus-visible, button:focus-visible{outline:2px solid var(--ink); outline-offs
   .hero{grid-template-columns:minmax(0,1fr) auto; min-height:auto; gap:20px 12px}
   .corner-tl{grid-column:1}
   .corner-tr{grid-column:2}
-  .stage{display:grid; grid-template-columns:minmax(0,1fr); gap:0; padding-block:8px; padding-left:0}
+  .stage{grid-row:2; display:grid; grid-template-columns:minmax(0,1fr); gap:0; padding-block:8px; padding-left:0}
   .plate{grid-column:1; grid-row:1; justify-self:start}
   .headline{grid-column:1; grid-row:2; justify-self:start; align-self:start; width:auto; margin:20px 0 0 0; gap:20px}
   .name{font-size:clamp(56px, 17vw, 96px)}
